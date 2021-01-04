@@ -1,10 +1,13 @@
-import BarChart from "./components/BarChart";
+import Barchart from "./components/BarChart";
+import PieChart from "./components/PieChart";
+
 
 
 function App() {
   return (
     <div>
-      <BarChart />
+      <Barchart />
+      <PieChart />
     </div>
   );
 }
